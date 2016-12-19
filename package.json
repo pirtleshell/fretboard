@@ -1,0 +1,56 @@
+{
+  "name": "fretboard",
+  "version": "0.0.1",
+  "description": "Programatically handle the notes of fretted string instruments, like the guitar",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "xo && mocha test"
+  },
+  "author": "Robert Pirtle",
+  "license": "MIT",
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "overrides": [
+      {
+        "files": "test/**",
+        "env": "mocha",
+        "rules": {
+          "import/no-unassigned-import": 0,
+          "padded-blocks": 0,
+          "max-nested-callbacks": 0
+        }
+      }
+    ]
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "xo": "^0.17.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "xo": "^0.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PirtleShell/fretboard.git"
+  },
+  "keywords": [
+    "instrument",
+    "tuning",
+    "music",
+    "frets",
+    "tune",
+    "guitar",
+    "stringed",
+    "instruments"
+  ],
+  "bugs": {
+    "url": "https://github.com/PirtleShell/fretboard/issues"
+  },
+  "homepage": "https://github.com/PirtleShell/fretboard#readme"
+}
